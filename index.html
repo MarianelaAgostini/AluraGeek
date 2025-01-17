@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playwrite+VN:wght@100..400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="/assets/icono.png" type="image/x-icon">
+    <title>AluraGeek</title>
+</head>
+<body>
+    <header>
+        <span class="hearts">❤️❤️❤️</span>
+        <span>AluraGeek</span>
+    </header>
+
+    <main>
+        <section class="form-section">
+            <h2>Agregar producto:</h2>
+            <form id="productForm" class="product-form">
+                <input class="input" type="text" id="nombre" placeholder="Nombre..." required>
+                <input class="input" type="number" id="precio" placeholder="Precio..." required>
+                <input class="input" type="url" id="imagen" placeholder="URL Imagen..." required>
+                <div class="buttons">
+                    <button type="submit" class="submit-btn">Enviar</button>
+                    <button type="reset" class="reset-btn">Limpiar</button>
+                </div>
+            </form>
+        </section>
+
+        <section class="products-section">
+            <h2>Mis productos:</h2>
+            <div class="products-grid" id="productsGrid"></div>
+        </section>        
+    </main>
+
+    <footer>
+        <span class="hearts">❤️❤️❤️</span>
+        <span>AluraGeek</span>
+        <p>Desarrollado por Marianela Agostini</p>
+        <p>Alura Latam 2025</p>
+    </footer>
+
+    <script src="script.js" defer></script>    
+    
+</body>
+</html>
